@@ -11,7 +11,7 @@ html.lb-disable-scrolling {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: #000; /* Preto */
+  background-color: #000;
   opacity: 0.95;
   display: none;
 }
@@ -44,7 +44,7 @@ html.lb-disable-scrolling {
   height: 250px;
   margin: 0 auto;
   border-radius: 4px;
-  background-color: #fff; /* Branco */
+  background-color: #fff; 
 }
 
 .lb-outerContainer:after {
@@ -137,7 +137,7 @@ html.lb-disable-scrolling {
 
 .lb-data {
   padding: 0 4px;
-  color: #FB0881; /* Cor personalizada */
+  color: #8A2BE2;; 
 }
 
 .lb-data .lb-details {
@@ -155,7 +155,7 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption a {
-  color: #FB0881; /* Cor personalizada */
+  color: #8A2BE2; 
 }
 
 .lb-data .lb-number {

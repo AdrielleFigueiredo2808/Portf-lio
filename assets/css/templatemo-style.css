@@ -48,7 +48,7 @@ p {
 h4 {
     font-size: 26px;
     font-weight: 700;
-    color:#FB0881;
+    color:#8A2BE2;
     letter-spacing: 0.25px;
     
 }
@@ -105,7 +105,7 @@ html {
 }
 
 .main-nav li:last-child a {
-    border-bottom: 2px solid #FB0881;
+    border-bottom: 2px solid #8A2BE2;
 }
 
 .main-nav li {
@@ -118,16 +118,16 @@ html {
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
-    color: #FB0881;
+    color: #8A2BE2;
     width: 100%;
     transition: all 0.5s;
-    border-top: 2px solid #FB0881;
+    border-top: 2px solid #8A2BE2;
 }
 
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
-    color: #FB0881;
+    color: #8A2BE2;
 }
 
 /* Sidebar Menu */
@@ -171,7 +171,7 @@ html {
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    background-color: #FB0881;
+    background-color: #8A2BE2;
     color: #fff;
     font-size: 14px;
     transition: all 0.5s;
@@ -179,7 +179,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: #fff;
-    color: #FB0881;
+    color: #8A2BE2;
 }
 
 .menu .copyright-text {
@@ -256,7 +256,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    color: #FB0881;
+    color: #8A2BE2;
     background-color: #fff;
     width: 60px;
     height: 60px;
@@ -272,7 +272,7 @@ html {
 #menu-close {
     cursor: pointer;
     text-align: right;
-    color: #FB0881;
+    color: #8A2BE2;
     background-color: #fff;
     width: 100%;
     height: 60px;
@@ -309,7 +309,7 @@ html {
 .section-heading .line-dec {
     width: 60px;
     height: 3px;
-    background-color: #FB0881;
+    background-color: #8A2BE2;
     margin: 10px auto;
 }
 
@@ -327,7 +327,7 @@ html {
     display: inline-block;
     padding: 12px 20px;
     background-color: #fff;
-    color: #FB0881;
+    color: #8A2BE2;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -336,7 +336,7 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #FB0881;
+    background-color: #8A2BE2;
     color: #fff;
 }
 
@@ -344,7 +344,7 @@ button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
-    color: #FB0881;
+    color: #8A2BE2;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -357,7 +357,7 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #FB0881;
+    background-color: #8A2BE2;
     color: #fff;
 }
 
@@ -399,13 +399,13 @@ button:hover {
 }
 
 .service-item {
-    width: 200%; /* Ajusta a largura para ocupar o espaço disponível */
-    max-width: 300px; /* Define uma largura máxima */
-    height: 300px; /* Define a altura fixa */
+    width: 200%; 
+    max-width: 300px;
+    height: 300px; 
     padding: 20px;
-    box-sizing: border-box; /* Inclui padding e border na largura e altura */
-    background-color: #00000094; /* Cor de fundo opcional */
-    margin: 10px auto; /* Centraliza os itens e adiciona margem entre eles */
+    box-sizing: border-box; 
+    background-color: #00000094; 
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -413,11 +413,11 @@ button:hover {
   }
   
   .service-item h4 {
-    margin-bottom: 15px; /* Espaço abaixo do título */
+    margin-bottom: 15px; 
   }
   
   .service-item p {
-    margin-bottom: 0; /* Remove a margem inferior do parágrafo */
+    margin-bottom: 0; 
   }
   
 
@@ -506,8 +506,8 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #FB0881;
-    border-bottom: 2px solid #FB0881;
+    color: #8A2BE2;
+    border-bottom: 2px solid #8A2BE2;
 }
 
 .isotope-box {
@@ -589,7 +589,7 @@ figure.snip1321 span {
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
-  background-color: #FB0881;
+  background-color: #8A2BE2;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -646,32 +646,32 @@ section.contact-me {
 
 #contact {
     text-align: center;
-    width: 400%; /* Garante que o contêiner ocupe toda a largura disponível */
+    width: 400%; 
 }
 
 .contact-me .form-group input,
 .contact-me .form-group textarea {
-  width: 100%; /* Garante que todos os campos ocupem a largura disponível */
-  height: 50px; /* Define uma altura fixa para os campos de input */
-  box-sizing: border-box; /* Garante que o padding e border não aumentem a largura e altura */
-  margin-bottom: 15px; /* Espaçamento entre os campos */
+  width: 100%; 
+  height: 50px; 
+  box-sizing: border-box; 
+  margin-bottom: 15px; 
 }
 
 .contact-me .form-group textarea {
-  height: 100px; /* Define uma altura específica para o campo de mensagem */
+  height: 100px; 
 }
 
 .contact-me .form-group button {
   width: 100%;
   height: 50px;
-  background-color: #FB0881; /* Cor de fundo do botão */
+  background-color: #8A2BE2; 
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
 .contact-me .form-group button:hover {
-  background-color: #e00771; /* Cor ao passar o mouse */
+  background-color: #8A2BE2; 
 }
 
 
